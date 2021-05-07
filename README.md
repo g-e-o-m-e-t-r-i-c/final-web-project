@@ -1,2 +1,2 @@
 # final-web-project
--- Final Web Development Project --
+This is my final web project's source code from HCI.
