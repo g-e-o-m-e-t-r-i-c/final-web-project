@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Paint - Rectangles</title>
+    <link rel='stylesheet' href='style_paint.css' />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <script src="https://kit.fontawesome.com/4760d87b0d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="navbar">
+        <nav id="nav" style="padding: 10px;">
+            <i class='fa fa-cube' id="icon"></i>
+            <p id="sep">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <i class="fa fa-home" id="icon"></i>
+            <p id="sep">&nbsp;</p>
+            <a class='page' id='home' href="index.html">HOME</a>
+            <p id="sep">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <i class="fas fa-paint-brush" id="icon"></i>
+            <p id="sep">&nbsp;</p>
+            <a class='page' id='page1' href="paint.html">PAINT - RECTANGLES</a>
+            <p id="sep">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <i class="fas fa-calculator" id="icon"></i>
+            <p id="sep">&nbsp;</p>
+            <a class='page' id='page2' href="calc.html">JS CALCULATOR</a>
+        </nav>
+    </div>
+    <div id='heading'>
+        <h1>Paint - Rectangles</h1>
+        <p id="intro">Let your imagination flow on the canvas below! &nbsp;</p>
+   </div>
+    <br>
+    <div id='rectangle'>
+        <div id='input'>
+            <div id='coord1'>
+                <label for='xy'>Coordinates for <b class="emph">top left </b>
+                    corner&nbsp;| </label>
+                <label for='x1'>
+                    X<sub>1</sub>:&nbsp;
+                </label>
+                <input value="" type='text' id='x1'>
+                &nbsp;&nbsp;
+                <label for='y1'>
+                    Y<sub>1</sub>:&nbsp;
+                </label>
+                <input value="" type='text' id='y1'>
+                &nbsp;&nbsp;
+            </div>
+
+            <br>
+
+            <div id='coord2'>
+                <label for='widthheight'><b class="emph">Dimensions</b> of rectangle&nbsp;| </label>
+                <label for='width'>
+                    Width:&nbsp;
+                </label>
+                <input value="" type='text' id='x2'>
+                &nbsp;&nbsp;
+                <label for='height'>
+                    Height:&nbsp;
+                </label>
+                <input value="" type='text' id='y2'>
+                &nbsp;&nbsp;
+            </div>
+
+            <br>
+
+            <div id='colorInput'>
+                <label for='color'>Color <i>(in hexadecimal)</i>:&nbsp;#</label>
+                <input value="" type='text' id='colors' minlength="6" maxlength="6">
+            </div>
+
+            <br>
+
+            <div id='submitDiv'>
+                <button type='submit' id="submitRect">
+                    <b id="create">Create!</b>
+                </button>
+
+            </div>
+        </div>
+    </div>
+        <div id='canvas'>
+            <canvas id='canv' style="border: 1px solid #a9a5a0;"></canvas>
+        </div>
+    <br>
+    <br>
+</body>
+<script src='paint.js'></script>
+</html>

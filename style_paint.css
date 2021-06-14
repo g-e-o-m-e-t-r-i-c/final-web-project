@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0px;
+    background-color: #0f111a;
+}
+
+#nav {
+    background-color: #292d3e;
+    padding: 10px;
+}
+
+#heading,
+#rectangle {
+    padding-left: 10px;
+    color: #a9a5a0;
+}
+
+#icon,
+#sep {
+    color: #ddd;
+}
+
+#sep {
+    display: inline;
+}
+
+.page {
+    color: #b4b4b4;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.page:hover {
+    background-color: #3f4563;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h1,
+.emph {
+    color: #1877bf;
+}
+
+#submitRect {
+    border-radius: 40px;
+    border-style: none;
+    background-color: #bb3574;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #a9a5a0;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    border-radius: 20px;
+    border-style: none;
+    background-color: #bb3574;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #a9a5a0;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#create,
+#go {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
+#canv {
+    padding-top: 10px;
+    border-color: #a9a5a0;
+}
+
+input {
+    background-color: #ddd;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#submitRect:hover,
+input[type="submit"]:hover {
+    background-color: #229b8e;
+    color: #042c34;
+    cursor: pointer;
+}
+
+#colors {
+    background-color: #002451;
+    color: #ddd;
+    border-style: none;
+}
+
+#canvas,
+#input {
+    display: float;
+    float: left;
+    width: 45%;
+}
+
+input[type=text],
+#colors {
+    background-color: #e2e2e2; /* apply to all fields for user input */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+#canv {
+    width: 100%;
+    height: 75%;
+    padding-top: 0px;
+}
