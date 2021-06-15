@@ -40,3 +40,7 @@ body {
 .section, #emph {
     color: #1877bf;
 }
+
+a {
+    text-decoration: none;
+}
