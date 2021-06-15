@@ -90,3 +90,7 @@ span {
 #final-operation, #result {
     color: #a9a5a0;
 }
+
+a {
+    text-decoration: none;
+}
