@@ -1,7 +1,7 @@
 # final-web-project
 **Module:** EC3 Web Development 
 
-Final Website Project
+Final Project
 
 ## Description
 A small website for the 2021 EC3 Web Development course.
