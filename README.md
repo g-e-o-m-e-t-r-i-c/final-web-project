@@ -1,10 +1,9 @@
 # final-web-project
 **Module:** EC3 Web Development 
 
-Final Project
-
 ## Description
 A small website for the 2021 EC3 Web Development course.
+The website serves as the Final Project Assignment for the course.
 
 **Link:** <https://ec3-final-project-06.netlify.app/>
 
