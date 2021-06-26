@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style_calc.css"/>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'/>
+    <link rel="stylesheet" href="style_calc.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
     <script src="https://kit.fontawesome.com/4760d87b0d.js" crossorigin="anonymous"></script>
     <title>JS Calculator</title>
 </head>
@@ -13,7 +13,8 @@
 <body>
     <div id="navbar">
         <nav id="nav" style="padding: 10px;">
-            <i class='fa fa-cube' id="icon"></i><p id="sep">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+            <i class='fa fa-cube' id="icon"></i>
+            <p id="sep">&nbsp;&nbsp;|&nbsp;&nbsp;</p>
             <i class="fa fa-home" id="icon"></i>
             <p id="sep">&nbsp;</p>
             <a class='page' id='home' href="index.html">HOME</a>
@@ -27,7 +28,7 @@
             <a class='page' id='page2' href="calc.html">JS CALCULATOR</a>
         </nav>
     </div>
- 
+
     <div id="calculator">
         <header>
             <h1>JS Calculator</h1>
@@ -43,48 +44,48 @@
                     <option value="string">String</option>
                 </select>
             </div>
-    
+
             <div class="input-area">
                 <h3 class="lvl3">Operator</h3>
                 <div class="operator-choices">
                     <h4>Arithmetic Operators</h4>
-                    
-                    <input type="radio" name="operator" value="+" checked/>+&nbsp;
-                    <input type="radio" name="operator" value="-"/>-&nbsp;
-                    <input type="radio" name="operator" value="*"/>*&nbsp;
-                    <input type="radio" name="operator" value="/"/>/&nbsp;
-                    <input type="radio" name="operator" value="%"/>%&nbsp;
-    
+
+                    <input type="radio" name="operator" value="+" checked />+&nbsp;
+                    <input type="radio" name="operator" value="-" />-&nbsp;
+                    <input type="radio" name="operator" value="*" />*&nbsp;
+                    <input type="radio" name="operator" value="/" />/&nbsp;
+                    <input type="radio" name="operator" value="%" />%&nbsp;
+
                     <h4>String Operators</h4>
-                    <input type="radio" name="operator" value="concat"/>+ (concatenation)&nbsp;
-    
+                    <input type="radio" name="operator" value="concat" />+ (concatenation)&nbsp;
+
                     <h4>Comparison Operators</h4>
-                    <input type="radio" name="operator" value="=="/>==&nbsp;
-                    <input type="radio" name="operator" value="==="/>===&nbsp;
-                    <input type="radio" name="operator" value="!="/>!=&nbsp;
-                    <input type="radio" name="operator" value="!=="/>!==&nbsp;
-                    <input type="radio" name="operator" value=">"/>&gt;&nbsp;
-                    <input type="radio" name="operator" value=">="/>&gt;=&nbsp;
-                    <input type="radio" name="operator" value="<"/>&lt;&nbsp;
-                    <input type="radio" name="operator" value="<="/>&lt;=&nbsp;
+                    <input type="radio" name="operator" value="==" />==&nbsp;
+                    <input type="radio" name="operator" value="===" />===&nbsp;
+                    <input type="radio" name="operator" value="!=" />!=&nbsp;
+                    <input type="radio" name="operator" value="!==" />!==&nbsp;
+                    <input type="radio" name="operator" value=">" />&gt;&nbsp;
+                    <input type="radio" name="operator" value=">=" />&gt;=&nbsp;
+                    <input type="radio" name="operator" value="<" />&lt;&nbsp;
+                    <input type="radio" name="operator" value="<=" />&lt;=&nbsp;
                 </div>
             </div>
-    
+
             <div class="input-area">
                 <h3 class="lvl3">Operand 2</h3>
-                <input type="text" id="operand2" value="1"/>
+                <input type="text" id="operand2" value="1" />
                 <select id="operand2-type">
                     <option value="number">Number</option>
                     <option value="string">String</option>
                 </select>
             </div>
-            <br/>
+            <br />
             <div class="input-area">
-                <input type="submit" id="submit" value="Calculate!"/>
+                <input type="submit" id="submit" value="Calculate!" />
             </div>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
         </div>
 
         <div class="output-area">
@@ -97,4 +98,5 @@
     </div>
 </body>
 <script src="calc.js"></script>
+
 </html>
