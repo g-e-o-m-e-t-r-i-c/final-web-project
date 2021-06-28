@@ -22,7 +22,7 @@ function makeRect() {
     /* eg. if x-coord/y-coord is negative, it is automatically set to 0
 	if width/height is out of bourds, it is set to the maximum value 
 	if color is not in hexadecimal range, it will be set to previous colour used
-*/
+    */
     if (x1 > c.width) {
         x1 = 0;
         console.log("Out of bounds: Setting X-Coordinate to 0");
