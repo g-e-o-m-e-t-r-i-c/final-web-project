@@ -21,7 +21,7 @@ function makeRect() {
     // since JS automates the process if user input is out of range, we don't need to settle it
     /* eg. if x-coord/y-coord is negative, it is automatically set to 0
 	if width/height is out of bourds, it is set to the maximum value 
-	if color is not in hexadecimal, it will be set to #000000
+	if color is not in hexadecimal, it will be set to previous colour used
 	*/
     if (x1 > c.width) {
         x1 = 0;
