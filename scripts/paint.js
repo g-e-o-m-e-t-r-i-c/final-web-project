@@ -31,7 +31,7 @@ function makeRect() {
         y1 = 0;
         console.log("Out of bounds: Setting Y-Coordinate to 0");
     }
-    if (!(colorVal.match(/[0-9A-Fa-f]/))) {
+    if (!(colorVal.match(/[0-9][A-F][a-f]/))) {
         colorVal = "FFFFFF";
     }
     ctx.fillStyle = "#" + colorVal;
