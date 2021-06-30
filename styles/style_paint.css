@@ -103,7 +103,7 @@ input[type="submit"]:hover {
     width: 45%;
 }
 
-input[type=text],
+input[type="text"],
 #colors {
     background-color: #e2e2e2; /* apply to all fields for user input */
     border-radius: 10px;
