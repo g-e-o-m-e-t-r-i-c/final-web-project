@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 body {
     font-family: "Source Sans Pro", sans-serif;
@@ -16,7 +16,8 @@ body {
     color: #a9a5a0;
 }
 
-#icon, #sep {
+#icon,
+#sep {
     color: #ddd;
 }
 
@@ -37,7 +38,8 @@ body {
     text-decoration: none;
 }
 
-.section, #emph {
+.section,
+#emph {
     color: #1877bf;
 }
 

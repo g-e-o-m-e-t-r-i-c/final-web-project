@@ -101,7 +101,7 @@ function calculateIt() {
     if (typeof operand2 === "string") {
         operand2 = '"' + operand2 + '"';
     }
-    document.getElementById("final-operation").innerHTML = 
+    document.getElementById("final-operation").innerHTML =
         operand1 + " " + myOperator + " " + operand2;
     // display the return value
     document.getElementById("result").innerHTML = returnValue;
