@@ -12,4 +12,4 @@ The website serves as the Final Project Assignment for the course.
 
 **Font:** [Source Sans Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Sans+Pro)
 
-**Navbar Icons:** [Font Awesome](https://fontawesome.com/)
+**Icons:** [Font Awesome](https://fontawesome.com/)
