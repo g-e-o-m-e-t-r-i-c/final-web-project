@@ -1,9 +1,10 @@
+// canvas set-up
 var rect = document.getElementById("rectangle");
 var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
-console.log("Canvas Width: " + c.width + " | Canvas Height: " + c.height);
+console.log("Canvas Width: " + c.width + " | Canvas Height: " + c.height); // debugging
 document.getElementById("intro").innerHTML +=
-    "Canvas Width: " + c.width + " | Canvas Height: " + c.height;
+    "Canvas Width: " + c.width + " | Canvas Height: " + c.height; // let user know canvas liits
 
 var submitRect = document.getElementById("submitRect");
 submitRect.addEventListener("click", makeRect);
@@ -31,8 +32,10 @@ function makeRect() {
         y1 = 0;
         console.log("Out of bounds: Setting Y-Coordinate to 0");
     }
+    // driver code
     ctx.fillStyle = "#" + colorVal;
     ctx.fillRect(x1, y1, width, height);
+    // reset fields
     document.getElementById("x1").value = "";
     document.getElementById("y1").value = "";
     document.getElementById("x2").value = "";
