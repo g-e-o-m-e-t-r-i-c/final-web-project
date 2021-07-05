@@ -35,7 +35,7 @@ function makeRect() {
     // driver code
     ctx.fillStyle = "#" + colorVal;
     ctx.fillRect(x1, y1, width, height);
-    
+
     // reset fields
     document.getElementById("x1").value = "";
     document.getElementById("y1").value = "";
