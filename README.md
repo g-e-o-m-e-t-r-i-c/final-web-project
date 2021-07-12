@@ -7,7 +7,7 @@
 A small website for the 2021 EC3 Web Development course.
 The website serves as the Final Project Assignment for the course.
 
-**Link:** <https://ec3-final-project-06.netlify.app/>
+**Link:** https://ec3-final-project-06.netlify.app/
 
 ## Credits
 
@@ -15,4 +15,4 @@ The website serves as the Final Project Assignment for the course.
 
 **Font:** [Source Sans Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Sans+Pro)
 
-**Icons:** [Font Awesome](https://fontawesome.com/)
+**Navbar Icons:** [Font Awesome](https://fontawesome.com/)
