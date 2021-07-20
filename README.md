@@ -3,7 +3,7 @@
 ## Description
 
 A small website for the 2021 EC3 Web Development course.
-The website serves as the Final Project Assignment for the course.
+The website serves as the course's final project.
 
 **Link:** https://ec3-final-project-06.netlify.app/
 
