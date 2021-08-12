@@ -4,10 +4,14 @@
 		<link rel="stylesheet" href="styles/style_calc.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--Font Awesome icons v4-->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
+
+		<!--Font Awesome icons v5-->
 		<script
 			src="https://kit.fontawesome.com/4760d87b0d.js"
 			crossorigin="anonymous"
@@ -16,6 +20,7 @@
 	</head>
 
 	<body>
+		<!--navbar for navigating to other pages-->
 		<div id="navbar">
 			<nav id="nav" style="padding: 10px">
 				<i class="fa fa-cube" id="icon"></i>
@@ -49,6 +54,7 @@
 				<div class="input-area">
 					<h3 class="lvl3">Operand 1</h3>
 					<input type="text" id="operand1" value="1" />
+					<!--allows user to select datatype - number/string-->
 					<select id="operand1-type">
 						<option value="number">Number</option>
 						<option value="string">String</option>
@@ -58,8 +64,8 @@
 				<div class="input-area">
 					<h3 class="lvl3">Operator</h3>
 					<div class="operator-choices">
+						<!--operator selection-->
 						<h4>Arithmetic Operators</h4>
-
 						<input
 							type="radio"
 							name="operator"
@@ -122,15 +128,19 @@
 				<div class="input-area">
 					<h3 class="lvl3">Operand 2</h3>
 					<input type="text" id="operand2" value="1" />
+					<!--type selection - number or string-->
 					<select id="operand2-type">
 						<option value="number">Number</option>
 						<option value="string">String</option>
 					</select>
 				</div>
 				<br />
+
+				<!--submit button-->
 				<div class="input-area">
 					<input type="submit" id="submit" value="Calculate!" />
 				</div>
+
 				<br />
 				<br />
 				<br />

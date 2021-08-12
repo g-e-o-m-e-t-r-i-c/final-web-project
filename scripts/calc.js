@@ -1,7 +1,10 @@
+// allows submit button to respond when clicked
 document.getElementById("submit").addEventListener("click", calculateIt);
 
 function calculateIt() {
 	// create some variables
+	// myOperator: operator selected by user
+	// returnValue: output of the operation
 	var myOperator;
 	var returnValue;
 

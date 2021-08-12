@@ -27,7 +27,7 @@ function makeRect() {
 		console.log("Out of bounds: Setting Y-Coordinate to 0");
 	}
 
-	// driver code
+	// driver code - draw rectangle and set fill color
 	ctx.fillStyle = "#" + colorVal;
 	ctx.fillRect(x1, y1, width, height);
 
