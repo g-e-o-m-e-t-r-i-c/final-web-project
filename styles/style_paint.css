@@ -122,3 +122,7 @@ input[type="text"],
 a {
 	text-decoration: none; /* disable underlining of hyperlinks */
 }
+
+#intro > b {
+	color: #a3be8c;
+}

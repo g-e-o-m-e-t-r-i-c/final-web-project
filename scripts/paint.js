@@ -2,9 +2,9 @@
 var rect = document.getElementById("rectangle");
 var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
-console.log("Canvas Width: " + c.width + " | Canvas Height: " + c.height); // debugging
+// console.log("Canvas Width: " + c.width + " | Canvas Height: " + c.height); // debugging
 document.getElementById("intro").innerHTML +=
-	"Canvas Width: " + c.width + " | Canvas Height: " + c.height; // let user know canvas liits
+	"Canvas Width: <b>" + c.width + "</b> | Canvas Height: <b>" + c.height + "</b>"; // let user know canvas liits
 
 var submitRect = document.getElementById("submitRect");
 submitRect.addEventListener("click", makeRect);
