@@ -5,9 +5,10 @@
 A small website for the 2021 EC3 Web Development course.
 The website serves as the course's final project.
 
-**Link:** https://ec3-final-project-06.netlify.app/
+**Links:**
 
-**Backup Link:** https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/
+-   https://ec3-final-project-06.netlify.app/
+-   https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/
 
 ## Credits
 
