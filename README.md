@@ -14,6 +14,6 @@ The website serves as the course's final project.
 
 **Color Scheme:** [Nord](https://www.nordtheme.com/)
 
-**Font:** [Source Sans Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Sans+Pro)
+**Font:** [Source Code Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Code+Pro)
 
 **Navbar Icons:** [Font Awesome](https://fontawesome.com/)

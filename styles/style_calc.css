@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Source Code Pro", sans-serif;
 	margin: 0px;
 	background-color: #2e3440;
 }
@@ -68,7 +68,7 @@ select,
 #operand2,
 #submit {
 	font-size: 16px;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Source Code Pro", sans-serif;
 }
 
 select,
