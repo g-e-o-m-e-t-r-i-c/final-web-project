@@ -4,23 +4,23 @@
 body {
 	font-family: "Source Sans Pro", sans-serif;
 	margin: 0px;
-	background-color: #0f111a;
+	background-color: #2e3440;
 }
 
 #nav {
-	background-color: #292d3e;
+	background-color: #3b4252;
 	padding: 10px;
 }
 
 #heading,
 #rectangle {
 	padding-left: 10px;
-	color: #a9a5a0;
+	color: #eceff4;
 }
 
 #icon,
 #sep {
-	color: #ddd;
+	color: #d8dee9;
 }
 
 #sep {
@@ -28,43 +28,43 @@ body {
 }
 
 .page {
-	color: #b4b4b4;
+	color: #d8dee9;
 	display: inline-block;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 .page:hover {
-	background-color: #3f4563;
+	background-color: #4c566a;
 	border-radius: 5px;
 	text-decoration: none;
 }
 
 h1,
 .emph {
-	color: #1877bf;
+	color: #81a1c1;
 }
 
 #submitRect {
 	border-radius: 40px;
 	border-style: none;
-	background-color: #bb3574;
+	background-color: #b48ead;
 	padding: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: #a9a5a0;
+	color: #eceff4;
 	display: inline-block;
 }
 
 input[type="submit"] {
 	border-radius: 20px;
 	border-style: none;
-	background-color: #bb3574;
+	background-color: #b48ead;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	color: #a9a5a0;
+	color: #eceff4;
 	display: inline-block;
 	font-size: 16px;
 }
@@ -76,24 +76,24 @@ input[type="submit"] {
 }
 #canv {
 	padding-top: 10px;
-	border-color: #a9a5a0;
+	border-color: #eceff4;
 }
 
 input {
-	background-color: #ddd;
+	background-color: #d8dee9;
 	font-family: "Source Sans Pro", sans-serif;
 }
 
 #submitRect:hover,
 input[type="submit"]:hover {
-	background-color: #229b8e;
-	color: #042c34;
+	background-color: #8fbcbb;
+	color: #3b4252;
 	cursor: pointer;
 }
 
 #colors {
-	background-color: #002451;
-	color: #ddd;
+	background-color: #3b4252;
+	color: #d8dee9;
 	border-style: none;
 }
 
@@ -106,11 +106,11 @@ input[type="submit"]:hover {
 
 input[type="text"],
 #colors {
-	background-color: #e2e2e2; /* apply to all fields for user input */
+	background-color: #eceff4; /* apply to all fields for user input */
 	border-radius: 10px;
 	text-align: center;
 	font-size: 16px;
-	color: #000;
+	color: #4c566a;
 }
 
 #canv {

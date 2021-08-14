@@ -9,7 +9,7 @@ The website serves as the course's final project.
 
 ## Credits
 
-**Color Scheme:** [Community Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-community-material-theme) and Solarized Dark Theme
+**Color Scheme:** [Nord](https://www.nordtheme.com/)
 
 **Font:** [Source Sans Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Sans+Pro)
 
