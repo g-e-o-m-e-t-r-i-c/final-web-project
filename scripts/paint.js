@@ -2,7 +2,7 @@
 var rect = document.getElementById("rectangle");
 var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
-// console.log("Canvas Width: " + c.width + " | Canvas Height: " + c.height); // debugging
+
 document.getElementById("intro").innerHTML +=
 	"Canvas Width: <b>" + c.width + "</b> | Canvas Height: <b>" + c.height + "</b>"; // let user know canvas liits
 
@@ -31,7 +31,7 @@ function makeRect() {
 	ctx.fillStyle = "#" + colorVal;
 	ctx.fillRect(x1, y1, width, height);
 
-	// reset fields
+	// reset fields after rectangle is drawn
 	document.getElementById("x1").value = "";
 	document.getElementById("y1").value = "";
 	document.getElementById("x2").value = "";

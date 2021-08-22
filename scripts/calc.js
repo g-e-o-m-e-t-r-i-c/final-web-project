@@ -2,7 +2,6 @@
 document.getElementById("submit").addEventListener("click", calculateIt);
 
 function calculateIt() {
-	// create some variables
 	// myOperator: operator selected by user
 	// returnValue: output of the operation
 	var myOperator;
@@ -12,17 +11,17 @@ function calculateIt() {
 	var operand1 = document.getElementById("operand1").value;
 	var operand2 = document.getElementById("operand2").value;
 
-	// get the operand types
+	// get the operand types (string/number)
 	var select1 = document.getElementById("operand1-type");
 	var select2 = document.getElementById("operand2-type");
 
 	var operand1type = select1.value;
 	var operand2type = select2.value;
 
-	// get the operator
+	// fetch the operator
 	var radios = document.getElementsByName("operator");
 
-	// convert the operands
+	// convert the operands to the type satisfied
 	switch (operand1type) {
 		case "string":
 			operand1 = String(operand1);
@@ -40,6 +39,7 @@ function calculateIt() {
 			operand2 = Number(operand2);
 			break;
 	}
+
 	// loop through each possible operand value and find the checked one
 	for (var i = 0, length = radios.length; i < length; i++) {
 		if (radios[i].checked) {
@@ -97,15 +97,16 @@ function calculateIt() {
 	}
 
 	// display the operation
-
 	if (typeof operand1 === "string") {
 		operand1 = '"' + operand1 + '"';
 	}
 	if (typeof operand2 === "string") {
 		operand2 = '"' + operand2 + '"';
 	}
+
+	// display operation and return value
 	document.getElementById("final-operation").innerHTML =
 		operand1 + " " + myOperator + " " + operand2;
-	// display the return value
+
 	document.getElementById("result").innerHTML = returnValue;
 }

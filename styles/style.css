@@ -1,6 +1,7 @@
 /* font imported from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
+/* this colorscheme is inspired by Nord theme */
 body {
 	font-family: "Source Code Pro", sans-serif;
 	margin: 0px;
@@ -45,5 +46,5 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none; /* disable underlining of hyperlinks */
 }
