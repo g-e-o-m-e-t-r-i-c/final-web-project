@@ -14,14 +14,13 @@ function calculateIt() {
 	// get the operand types (string/number)
 	var select1 = document.getElementById("operand1-type");
 	var select2 = document.getElementById("operand2-type");
-
 	var operand1type = select1.value;
 	var operand2type = select2.value;
 
 	// fetch the operator
 	var radios = document.getElementsByName("operator");
 
-	// convert the operands to the type satisfied
+	// convert the operands to the datatype specified
 	switch (operand1type) {
 		case "string":
 			operand1 = String(operand1);
@@ -47,6 +46,7 @@ function calculateIt() {
 
 			// do a different operation depending on which operator was selected
 			switch (radios[i].value) {
+				// -- Arithmetic --
 				case "+":
 					returnValue = operand1 + operand2;
 					break;
@@ -62,10 +62,14 @@ function calculateIt() {
 				case "%":
 					returnValue = operand1 % operand2;
 					break;
+
+				// -- String --
 				case "concat":
 					returnValue = operand1 + operand2;
 					myOperator = "+";
 					break;
+
+				// -- Logic --
 				case "==":
 					returnValue = operand1 == operand2;
 					break;
@@ -96,7 +100,7 @@ function calculateIt() {
 		}
 	}
 
-	// display the operation
+	// add "" to string operands
 	if (typeof operand1 === "string") {
 		operand1 = '"' + operand1 + '"';
 	}
