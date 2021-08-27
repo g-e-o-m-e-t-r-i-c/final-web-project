@@ -4,7 +4,11 @@ var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
 
 document.getElementById("intro").innerHTML +=
-	"Canvas Width: <b>" + c.width + "</b> | Canvas Height: <b>" + c.height + "</b>"; // let user know canvas dimensions
+	"Canvas Width: <b>" +
+	c.width +
+	"</b> | Canvas Height: <b>" +
+	c.height +
+	"</b>"; // let user know canvas dimensions
 
 var submitRect = document.getElementById("submitRect");
 submitRect.addEventListener("click", makeRect);
