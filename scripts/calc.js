@@ -12,10 +12,8 @@ function calculateIt() {
 	var operand2 = document.getElementById("operand2").value;
 
 	// get the operand types (string/number)
-	var select1 = document.getElementById("operand1-type");
-	var select2 = document.getElementById("operand2-type");
-	var operand1type = select1.value;
-	var operand2type = select2.value;
+	var operand1type = document.getElementById("operand1-type").value;
+	var operand2type = document.getElementById("operand2-type").value;
 
 	// fetch the operator
 	var radios = document.getElementsByName("operator");
