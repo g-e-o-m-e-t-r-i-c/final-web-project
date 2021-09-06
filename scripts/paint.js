@@ -4,9 +4,9 @@ var c = document.getElementById("canv");
 var ctx = c.getContext("2d");
 
 document.getElementById("intro").innerHTML +=
-	"Canvas Width: <b>" +
+	"canvas width: <b>" +
 	c.width +
-	"</b> | Canvas Height: <b>" +
+	"</b> | canvas height: <b>" +
 	c.height +
 	"</b>"; // let user know canvas dimensions
 
@@ -24,12 +24,12 @@ function makeRect() {
 	// notify user when coordinates entered our out of bounds
 	if (x1 > c.width) {
 		x1 = 0;
-		console.log("Out of bounds: Setting X-Coordinate to 0");
+		console.log("out of bounds: setting X-coordinate to 0");
 	}
 
 	if (y1 > c.height) {
 		y1 = 0;
-		console.log("Out of bounds: Setting Y-Coordinate to 0");
+		console.log("out of bounds: setting Y-coordinate to 0");
 	}
 
 	// driver code - draw rectangle and set fill color, according to the user's input
