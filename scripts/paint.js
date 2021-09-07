@@ -21,7 +21,7 @@ function makeRect() {
 	var height = Number(document.getElementById("y2").value);
 	var colorVal = document.getElementById("colors").value;
 
-	// notify user when coordinates entered our out of bounds
+	// notify user when coordinates entered out of bounds
 	if (x1 > c.width) {
 		x1 = 0;
 		console.log("out of bounds: setting X-coordinate to 0");
