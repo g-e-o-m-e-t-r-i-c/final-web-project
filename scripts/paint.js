@@ -14,7 +14,7 @@ var submitRect = document.getElementById("submitRect");
 submitRect.addEventListener("click", makeRect);
 
 function makeRect() {
-	// set up variables based on the user input in the text fields
+	// obtain values from user input in input fields
 	var x1 = Number(document.getElementById("x1").value);
 	var y1 = Number(document.getElementById("y1").value);
 	var width = Number(document.getElementById("x2").value);

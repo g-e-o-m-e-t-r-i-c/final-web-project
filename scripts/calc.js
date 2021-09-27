@@ -2,20 +2,18 @@
 document.getElementById("submit").addEventListener("click", calculateIt);
 
 function calculateIt() {
-	// myOperator: operator selected by user
-	// returnValue: output of the operation
-	var myOperator;
-	var returnValue;
+	var myOperator; // operator selected by user
+	var returnValue; // output of the operation
 
-	// get the operands
+	// obtain the operands
 	var operand1 = document.getElementById("operand1").value;
 	var operand2 = document.getElementById("operand2").value;
 
-	// get the operand types (string/number)
+	// obtain the operand types (string/number)
 	var operand1type = document.getElementById("operand1-type").value;
 	var operand2type = document.getElementById("operand2-type").value;
 
-	// fetch the operator
+	// obtain the operator
 	var radios = document.getElementsByName("operator");
 
 	// convert the operands to the datatype specified
@@ -37,12 +35,12 @@ function calculateIt() {
 			break;
 	}
 
-	// loop through each possible operand value and find the checked one
+	// loop through each possible operand value and find the selected one
 	for (var i = 0, length = radios.length; i < length; i++) {
 		if (radios[i].checked) {
 			myOperator = radios[i].value;
 
-			// do a different operation depending on which operator was selected
+			// execute a different operation depending on which operator was selected
 			switch (radios[i].value) {
 				// -- Arithmetic --
 				case "+":
