@@ -7,8 +7,8 @@ The website serves as the course's final project.
 
 **Links:**
 
--   https://ec3-final-project-06.netlify.app/
--   https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/
+- https://ec3-final-project-06.netlify.app/
+- https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/
 
 ## Credits
 
