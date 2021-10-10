@@ -1,8 +1,8 @@
 /* font imported from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-	font-family: "Source Code Pro", sans-serif;
+	font-family: 'Source Code Pro', sans-serif;
 	margin: 0px;
 	background-color: #2e3440;
 }
@@ -56,7 +56,7 @@ h1,
 	display: inline-block;
 }
 
-input[type="submit"] {
+input[type='submit'] {
 	border-radius: 20px;
 	border-style: none;
 	background-color: #b48ead;
@@ -71,7 +71,7 @@ input[type="submit"] {
 
 #create,
 #go {
-	font-family: "Source Code Pro", sans-serif;
+	font-family: 'Source Code Pro', sans-serif;
 	font-size: 16px;
 }
 #canv {
@@ -81,11 +81,11 @@ input[type="submit"] {
 
 input {
 	background-color: #d8dee9;
-	font-family: "Source Code Pro", sans-serif;
+	font-family: 'Source Code Pro', sans-serif;
 }
 
 #submitRect:hover,
-input[type="submit"]:hover {
+input[type='submit']:hover {
 	background-color: #8fbcbb;
 	color: #3b4252;
 	cursor: pointer;
@@ -104,7 +104,7 @@ input[type="submit"]:hover {
 	width: 45%;
 }
 
-input[type="text"],
+input[type='text'],
 #colors {
 	background-color: #eceff4; /* apply to all fields for user input */
 	border-radius: 10px;
