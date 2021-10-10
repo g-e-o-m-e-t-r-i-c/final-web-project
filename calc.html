@@ -1,120 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="stylesheet" href="styles/style_calc.css" />
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <head>
+    <link rel="stylesheet" href="styles/style_calc.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<!--Font Awesome icons v4-->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
+    <!--Font Awesome icons v4-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-		<!--Font Awesome icons v5-->
-		<script
-			src="https://kit.fontawesome.com/4760d87b0d.js"
-			crossorigin="anonymous"
-		></script>
+    <!--Font Awesome icons v5-->
+    <script
+      src="https://kit.fontawesome.com/4760d87b0d.js"
+      crossorigin="anonymous"
+    ></script>
 
-		<title>calculator</title>
-	</head>
+    <title>calculator</title>
+  </head>
 
-	<body>
-		<!--navbar for navigating to other pages-->
-		<div id="navbar">
-			<nav id="nav" style="padding: 10px">
-				<i class="fa fa-cube" id="icon"></i>
-				<p id="sep">|</p>
-				<i class="fa fa-home" id="icon"></i>
-				<p id="sep"></p>
-				<a class="page" id="home" href="index.html">home</a>
-				<p id="sep">|</p>
-				<i class="fas fa-paint-brush" id="icon"></i>
-				<p id="sep"></p>
-				<a class="page" id="page1" href="paint.html">paint</a>
-				<p id="sep">|</p>
-				<i class="fas fa-calculator" id="icon"></i>
-				<p id="sep"></p>
-				<a class="page" id="page2" href="calc.html">calculator</a>
-			</nav>
-		</div>
+  <body>
+    <!--navbar for navigating to other pages-->
+    <div id="navbar">
+      <nav id="nav" style="padding: 10px">
+        <i class="fa fa-cube" id="icon"></i>
+        <p id="sep">|</p>
+        <i class="fa fa-home" id="icon"></i>
+        <p id="sep"></p>
+        <a class="page" id="home" href="index.html">home</a>
+        <p id="sep">|</p>
+        <i class="fas fa-paint-brush" id="icon"></i>
+        <p id="sep"></p>
+        <a class="page" id="page1" href="paint.html">paint</a>
+        <p id="sep">|</p>
+        <i class="fas fa-calculator" id="icon"></i>
+        <p id="sep"></p>
+        <a class="page" id="page2" href="calc.html">calculator</a>
+      </nav>
+    </div>
 
-		<div id="calculator">
-			<header>
-				<h1>calculator</h1>
-				<p>
-					the calculator which shows the result of using different JS operators.
-				</p>
-			</header>
-			<div class="input-section">
-				<h2>input</h2>
-				<div class="input-area">
-					<h3 class="lvl3">operand 1</h3>
-					<input type="text" id="operand1" value="1" />
-					<!--allows user to select datatype - number/string-->
-					<select id="operand1-type">
-						<option value="number">number</option>
-						<option value="string">string</option>
-					</select>
-				</div>
+    <div id="calculator">
+      <header>
+        <h1>calculator</h1>
+        <p>
+          the calculator which shows the result of using different JS operators.
+        </p>
+      </header>
+      <div class="input-section">
+        <h2>input</h2>
+        <div class="input-area">
+          <h3 class="lvl3">operand 1</h3>
+          <input type="text" id="operand1" value="1" />
+          <!--allows user to select datatype - number/string-->
+          <select id="operand1-type">
+            <option value="number">number</option>
+            <option value="string">string</option>
+          </select>
+        </div>
 
-				<div class="input-area">
-					<h3 class="lvl3">operator</h3>
-					<div class="operator-choices">
-						<!--operator selection-->
-						<h4>arithmetic operators</h4>
-						<input type="radio" name="operator" value="+" checked />+&nbsp;
-						<input type="radio" name="operator" value="-" />-&nbsp;
-						<input type="radio" name="operator" value="*" />*&nbsp;
-						<input type="radio" name="operator" value="/" />/&nbsp;
-						<input type="radio" name="operator" value="%" />%&nbsp;
+        <div class="input-area">
+          <h3 class="lvl3">operator</h3>
+          <div class="operator-choices">
+            <!--operator selection-->
+            <h4>arithmetic operators</h4>
+            <input type="radio" name="operator" value="+" checked />+&nbsp;
+            <input type="radio" name="operator" value="-" />-&nbsp;
+            <input type="radio" name="operator" value="*" />*&nbsp;
+            <input type="radio" name="operator" value="/" />/&nbsp;
+            <input type="radio" name="operator" value="%" />%&nbsp;
 
-						<h4>string operators</h4>
-						<input type="radio" name="operator" value="concat" />+
-						(concatenation)&nbsp;
+            <h4>string operators</h4>
+            <input type="radio" name="operator" value="concat" />+
+            (concatenation)&nbsp;
 
-						<h4>comparison operators</h4>
-						<input type="radio" name="operator" value="==" />==&nbsp;
-						<input type="radio" name="operator" value="===" />===&nbsp;
-						<input type="radio" name="operator" value="!=" />!=&nbsp;
-						<input type="radio" name="operator" value="!==" />!==&nbsp;
-						<input type="radio" name="operator" value=">" />&gt;&nbsp;
-						<input type="radio" name="operator" value=">=" />&gt;=&nbsp;
-						<input type="radio" name="operator" value="<" />&lt;&nbsp;
-						<input type="radio" name="operator" value="<=" />&lt;=&nbsp;
-					</div>
-				</div>
+            <h4>comparison operators</h4>
+            <input type="radio" name="operator" value="==" />==&nbsp;
+            <input type="radio" name="operator" value="===" />===&nbsp;
+            <input type="radio" name="operator" value="!=" />!=&nbsp;
+            <input type="radio" name="operator" value="!==" />!==&nbsp;
+            <input type="radio" name="operator" value=">" />&gt;&nbsp;
+            <input type="radio" name="operator" value=">=" />&gt;=&nbsp;
+            <input type="radio" name="operator" value="<" />&lt;&nbsp;
+            <input type="radio" name="operator" value="<=" />&lt;=&nbsp;
+          </div>
+        </div>
 
-				<div class="input-area">
-					<h3 class="lvl3">operand 2</h3>
-					<input type="text" id="operand2" value="1" />
-					<!--type selection - number or string-->
-					<select id="operand2-type">
-						<option value="number">number</option>
-						<option value="string">string</option>
-					</select>
-				</div>
-				<br />
+        <div class="input-area">
+          <h3 class="lvl3">operand 2</h3>
+          <input type="text" id="operand2" value="1" />
+          <!--type selection - number or string-->
+          <select id="operand2-type">
+            <option value="number">number</option>
+            <option value="string">string</option>
+          </select>
+        </div>
+        <br />
 
-				<!--submit button-->
-				<div class="input-area">
-					<input type="submit" id="submit" value="calculate!" />
-				</div>
+        <!--submit button-->
+        <div class="input-area">
+          <input type="submit" id="submit" value="calculate!" />
+        </div>
 
-				<br />
-				<br />
-				<br />
-			</div>
+        <br />
+        <br />
+        <br />
+      </div>
 
-			<div class="output-area">
-				<h2>output</h2>
-				<h3 class="lvl3" id="op">operation</h3>
-				<h2 id="final-operation">---</h2>
-				<h3 class="lvl3" id="res">result</h3>
-				<h2 id="result">---</h2>
-			</div>
-		</div>
-	</body>
-	<script src="scripts/calc.js"></script>
+      <div class="output-area">
+        <h2>output</h2>
+        <h3 class="lvl3" id="op">operation</h3>
+        <h2 id="final-operation">---</h2>
+        <h3 class="lvl3" id="res">result</h3>
+        <h2 id="result">---</h2>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/calc.js"></script>
 </html>
