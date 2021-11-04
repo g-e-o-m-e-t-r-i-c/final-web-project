@@ -2,127 +2,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-  font-family: 'Source Code Pro', sans-serif;
-  margin: 0px;
-  background-color: #2e3440;
+	font-family: 'Source Code Pro', sans-serif;
+	margin: 0px;
+	background-color: #2e3440;
 }
 
 #nav {
-  background-color: #3b4252;
-  padding: 10px;
+	background-color: #3b4252;
+	padding: 10px;
 }
 
 #heading,
 #rectangle {
-  padding-left: 10px;
-  color: #eceff4;
+	padding-left: 10px;
+	color: #eceff4;
 }
 
 #icon,
 #sep {
-  color: #d8dee9;
+	color: #d8dee9;
 }
 
 #sep {
-  display: inline;
+	display: inline;
 }
 
 .page {
-  color: #d8dee9;
-  display: inline-block;
-  padding-left: 5px;
-  padding-right: 5px;
+	color: #d8dee9;
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .page:hover {
-  background-color: #4c566a;
-  border-radius: 5px;
-  text-decoration: none;
+	background-color: #4c566a;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
 h1,
 .emph {
-  color: #81a1c1;
+	color: #81a1c1;
 }
 
 #submitRect {
-  border-radius: 40px;
-  border-style: none;
-  background-color: #b48ead;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  color: #eceff4;
-  display: inline-block;
+	border-radius: 40px;
+	border-style: none;
+	background-color: #b48ead;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #eceff4;
+	display: inline-block;
 }
 
 input[type='submit'] {
-  border-radius: 20px;
-  border-style: none;
-  background-color: #b48ead;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #eceff4;
-  display: inline-block;
-  font-size: 16px;
+	border-radius: 20px;
+	border-style: none;
+	background-color: #b48ead;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #eceff4;
+	display: inline-block;
+	font-size: 16px;
 }
 
 #create,
 #go {
-  font-family: 'Source Code Pro', sans-serif;
-  font-size: 16px;
+	font-family: 'Source Code Pro', sans-serif;
+	font-size: 16px;
 }
 #canv {
-  padding-top: 10px;
-  border-color: #eceff4;
+	padding-top: 10px;
+	border-color: #eceff4;
 }
 
 input {
-  background-color: #d8dee9;
-  font-family: 'Source Code Pro', sans-serif;
+	background-color: #d8dee9;
+	font-family: 'Source Code Pro', sans-serif;
 }
 
 #submitRect:hover,
 input[type='submit']:hover {
-  background-color: #8fbcbb;
-  color: #3b4252;
-  cursor: pointer;
+	background-color: #8fbcbb;
+	color: #3b4252;
+	cursor: pointer;
 }
 
 #colors {
-  background-color: #3b4252;
-  color: #d8dee9;
-  border-style: none;
+	background-color: #3b4252;
+	color: #d8dee9;
+	border-style: none;
 }
 
 #canvas,
 #input {
-  display: float;
-  float: left;
-  width: 45%;
+	display: float;
+	float: left;
+	width: 45%;
 }
 
 input[type='text'],
 #colors {
-  background-color: #eceff4; /* apply to all fields for user input */
-  border-radius: 10px;
-  text-align: center;
-  font-size: 16px;
-  color: #4c566a;
+	background-color: #eceff4; /* apply to all fields for user input */
+	border-radius: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #4c566a;
 }
 
 #canv {
-  width: 100%;
-  height: 75%;
-  padding-top: 0px;
+	width: 100%;
+	height: 75%;
+	padding-top: 0px;
 }
 
 a {
-  text-decoration: none; /* disable underlining of hyperlinks */
+	text-decoration: none; /* disable underlining of hyperlinks */
 }
 
 #intro > b {
-  color: #a3be8c;
+	color: #a3be8c;
 }
