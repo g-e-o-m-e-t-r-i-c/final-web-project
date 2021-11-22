@@ -1,26 +1,38 @@
 /* font imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+:root {
+	--bg1: #2e3440;
+	--bg2: #3b4252;
+	--bg3: #4c566a;
+	--white1: #d8dee9;
+	--white2: #eceff4;
+	--cyan: #8fbcbb;
+	--green: #a3be8c;
+	--blue: #81a1c1;
+	--purple: #b48ead;
+}
+
 body {
 	font-family: 'Source Code Pro', sans-serif;
 	margin: 0px;
-	background-color: #2e3440;
+	background-color: var(--bg1);
 }
 
 #nav {
-	background-color: #3b4252;
+	background-color: var(--bg2);
 	padding: 10px;
 }
 
 #heading,
 #rectangle {
 	padding-left: 10px;
-	color: #eceff4;
+	color: var(--white2);
 }
 
 #icon,
 #sep {
-	color: #d8dee9;
+	color: var(--white1);
 }
 
 #sep {
@@ -28,43 +40,43 @@ body {
 }
 
 .page {
-	color: #d8dee9;
+	color: var(--white1);
 	display: inline-block;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 .page:hover {
-	background-color: #4c566a;
+	background-color: var(--bg3);
 	border-radius: 5px;
 	text-decoration: none;
 }
 
 h1,
 .emph {
-	color: #81a1c1;
+	color: var(--blue);
 }
 
 #submitRect {
 	border-radius: 40px;
 	border-style: none;
-	background-color: #b48ead;
+	background-color: var(--purple);
 	padding: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
-	color: #eceff4;
+	color: var(--white2);
 	display: inline-block;
 }
 
 input[type='submit'] {
 	border-radius: 20px;
 	border-style: none;
-	background-color: #b48ead;
+	background-color: var(--purple);
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	color: #eceff4;
+	color: var(--white2);
 	display: inline-block;
 	font-size: 16px;
 }
@@ -74,26 +86,27 @@ input[type='submit'] {
 	font-family: 'Source Code Pro', sans-serif;
 	font-size: 16px;
 }
+
 #canv {
 	padding-top: 10px;
-	border-color: #eceff4;
+	border-color: var(--white2);
 }
 
 input {
-	background-color: #d8dee9;
+	background-color: var(--white1);
 	font-family: 'Source Code Pro', sans-serif;
 }
 
 #submitRect:hover,
 input[type='submit']:hover {
-	background-color: #8fbcbb;
-	color: #3b4252;
+	background-color: var(--cyan);
+	color: var(--bg2);
 	cursor: pointer;
 }
 
 #colors {
-	background-color: #3b4252;
-	color: #d8dee9;
+	background-color: var(--bg2);
+	color: var(--white1);
 	border-style: none;
 }
 
@@ -106,11 +119,11 @@ input[type='submit']:hover {
 
 input[type='text'],
 #colors {
-	background-color: #eceff4; /* apply to all fields for user input */
+	background-color: var(---white1); /* apply to all fields for user input */
 	border-radius: 10px;
 	text-align: center;
 	font-size: 16px;
-	color: #4c566a;
+	color: var(--bg3);
 }
 
 #canv {
@@ -124,5 +137,5 @@ a {
 }
 
 #intro > b {
-	color: #a3be8c;
+	color: var(--green);
 }

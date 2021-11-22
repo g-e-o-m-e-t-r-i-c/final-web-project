@@ -1,25 +1,36 @@
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
+:root {
+	--bg1: #2e3440;
+	--bg2: #3b4252;
+	--bg3: #4c566a;
+	--white1: #d8dee9;
+	--white2: #eceff4;
+	--cyan: #8fbcbb;
+	--green: #a3be8c;
+	--blue: #81a1c1;
+	--purple: #b48ead;
+}
 body {
 	font-family: 'Source Code Pro', sans-serif;
 	margin: 0px;
-	background-color: #2e3440;
+	background-color: var(--bg1);
 }
 
 #nav {
-	background-color: #3b4252;
+	background-color: var(--bg2);
 	padding: 10px;
 }
 
 #calculator {
 	padding-left: 10px;
-	color: #eceff4;
+	color: var(--white2);
 }
 
 #icon,
 #sep {
-	color: #d8dee9;
+	color: var(--white1);
 }
 
 #sep {
@@ -27,40 +38,40 @@ body {
 }
 
 .page {
-	color: #d8dee9;
+	color: var(--white1);
 	display: inline-block;
 	padding-left: 5px;
 	padding-right: 5px;
 }
 
 .page:hover {
-	background-color: #4c566a;
+	background-color: var(--bg3);
 	border-radius: 5px;
 	text-decoration: none;
 }
 
 h1,
 h2 {
-	color: #81a1c1;
+	color: var(--blue);
 }
 
 #submit {
 	border-radius: 40px;
 	border-style: none;
-	background-color: #b48ead;
+	background-color: var(--purple);
 	padding: 10px;
-	color: #eceff4;
+	color: var(--white2);
 	display: inline-block;
 }
 
 #submit:hover {
-	background-color: #8fbcbb;
-	color: #3b4252;
+	background-color: var(--cyan);
+	color: var(--bg2);
 	cursor: pointer;
 }
 
 .lvl3 {
-	color: #a3be8c;
+	color: var(--green);
 }
 
 select,
@@ -75,11 +86,11 @@ select,
 #operand1,
 #operand2 {
 	border-radius: 10px;
-	background-color: #eceff4;
+	background-color: var(--white2);
 }
 
 input[type='radio'] {
-	background-color: #eceff4;
+	background-color: var(--white2);
 }
 
 #operand1,
@@ -99,7 +110,7 @@ span {
 
 #final-operation,
 #result {
-	color: #d8dee9;
+	color: var(--white1);
 }
 
 a {
