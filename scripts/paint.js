@@ -24,12 +24,12 @@ function makeRect() {
 	// notify user when coordinates entered out of bounds
 	if (x1 > c.width) {
 		x1 = 0
-		console.log('out of bounds: setting X-coordinate to 0')
+		console.log('out of bounds: setting x-coordinate to 0')
 	}
 
 	if (y1 > c.height) {
 		y1 = 0
-		console.log('out of bounds: setting Y-coordinate to 0')
+		console.log('out of bounds: setting y-coordinate to 0')
 	}
 
 	// driver code - draw rectangle and set fill color, according to the user's input
