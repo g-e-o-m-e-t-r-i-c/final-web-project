@@ -1,7 +1,7 @@
 // canvas set-up
-var rect = document.getElementById('rectangle')
-var c = document.getElementById('canv')
-var ctx = c.getContext('2d')
+let rect = document.getElementById('rectangle')
+let c = document.getElementById('canv')
+let ctx = c.getContext('2d')
 
 document.getElementById('intro').innerHTML +=
 	'canvas width: <b>' +
@@ -10,16 +10,16 @@ document.getElementById('intro').innerHTML +=
 	c.height +
 	'</b>' // let user know canvas dimensions
 
-var submitRect = document.getElementById('submitRect')
+let submitRect = document.getElementById('submitRect')
 submitRect.addEventListener('click', makeRect)
 
 function makeRect() {
 	// obtain values from user input in input fields
-	var x1 = Number(document.getElementById('x1').value)
-	var y1 = Number(document.getElementById('y1').value)
-	var width = Number(document.getElementById('x2').value)
-	var height = Number(document.getElementById('y2').value)
-	var colorVal = document.getElementById('colors').value
+	let x1 = Number(document.getElementById('x1').value)
+	let y1 = Number(document.getElementById('y1').value)
+	let width = Number(document.getElementById('x2').value)
+	let height = Number(document.getElementById('y2').value)
+	let colorVal = document.getElementById('colors').value
 
 	// notify user when coordinates entered out of bounds
 	if (x1 > c.width) {

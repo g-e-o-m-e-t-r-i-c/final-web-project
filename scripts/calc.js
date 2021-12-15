@@ -2,19 +2,19 @@
 document.getElementById('submit').addEventListener('click', calculateIt)
 
 function calculateIt() {
-	var myOperator // operator selected by user
-	var returnValue // output of the operation
+	let myOperator // operator selected by user
+	let returnValue // output of the operation
 
 	// obtain the operands
-	var operand1 = document.getElementById('operand1').value
-	var operand2 = document.getElementById('operand2').value
+	let operand1 = document.getElementById('operand1').value
+	let operand2 = document.getElementById('operand2').value
 
 	// obtain the operand types (string/number)
-	var operand1type = document.getElementById('operand1-type').value
-	var operand2type = document.getElementById('operand2-type').value
+	let operand1type = document.getElementById('operand1-type').value
+	let operand2type = document.getElementById('operand2-type').value
 
 	// obtain the operator
-	var radios = document.getElementsByName('operator')
+	let radios = document.getElementsByName('operator')
 
 	// convert the operands to the datatype specified
 	switch (operand1type) {
@@ -36,7 +36,7 @@ function calculateIt() {
 	}
 
 	// loop through each possible operand value and find the selected one
-	for (var i = 0, length = radios.length; i < length; i++) {
+	for (let i = 0, length = radios.length; i < length; i++) {
 		if (radios[i].checked) {
 			myOperator = radios[i].value
 
