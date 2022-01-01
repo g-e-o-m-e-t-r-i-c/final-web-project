@@ -42,7 +42,7 @@ function calculateIt() {
 
 			// execute a different operation depending on which operator was selected
 			switch (radios[i].value) {
-				// -- Arithmetic --
+				// arithmetic
 				case '+':
 					returnValue = operand1 + operand2
 					break
@@ -59,13 +59,13 @@ function calculateIt() {
 					returnValue = operand1 % operand2
 					break
 
-				// -- String --
+				// string
 				case 'concat':
 					returnValue = operand1 + operand2
 					myOperator = '+'
 					break
 
-				// -- Logic --
+				// logic
 				case '==':
 					returnValue = operand1 == operand2
 					break
