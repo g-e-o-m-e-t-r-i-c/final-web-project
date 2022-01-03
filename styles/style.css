@@ -15,7 +15,7 @@
 
 /* this colorscheme is basically the Nord theme */
 body {
-	font-family: 'Source Code Pro', sans-serif;
+	font-family: 'Source Code Pro', monospace;
 	margin: 0px;
 	background-color: var(--bg1);
 }
