@@ -8,7 +8,7 @@ The website serves as the course's final project.
 **Links:**
 
 - [Netlify](https://ec3-final-project-06.netlify.app/)
-- [Github Pages](https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/)
+- [GitHub Pages](https://g-e-o-m-e-t-r-i-c.github.io/final-web-project/)
 
 ## Credits
 
@@ -16,4 +16,4 @@ The website serves as the course's final project.
 
 **Font:** [Source Code Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Code+Pro)
 
-**Navbar Icons:** [Font Awesome](https://fontawesome.com/)
+**Icons:** [Font Awesome](https://fontawesome.com/)
