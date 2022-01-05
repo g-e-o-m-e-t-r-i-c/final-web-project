@@ -2,8 +2,8 @@
 document.getElementById('submit').addEventListener('click', calculateIt)
 
 function calculateIt() {
-	let myOperator // operator selected by user
-	let returnValue // output of the operation
+	let selectedOperator // operator selected by user
+	let result // output of the operation
 
 	// obtain the operands
 	let operand1 = document.getElementById('operand1').value
@@ -38,57 +38,57 @@ function calculateIt() {
 	// loop through each possible operand value and find the selected one
 	for (let i = 0, length = radios.length; i < length; i++) {
 		if (radios[i].checked) {
-			myOperator = radios[i].value
+			selectedOperator = radios[i].value
 
 			// execute a different operation depending on which operator was selected
 			switch (radios[i].value) {
 				// arithmetic
 				case '+':
-					returnValue = operand1 + operand2
+					result = operand1 + operand2
 					break
 				case '-':
-					returnValue = operand1 - operand2
+					result = operand1 - operand2
 					break
 				case '*':
-					returnValue = operand1 * operand2
+					result = operand1 * operand2
 					break
 				case '/':
-					returnValue = operand1 / operand2
+					result = operand1 / operand2
 					break
 				case '%':
-					returnValue = operand1 % operand2
+					result = operand1 % operand2
 					break
 
 				// string
 				case 'concat':
-					returnValue = operand1 + operand2
-					myOperator = '+'
+					result = operand1 + operand2
+					selectedOperator = '+'
 					break
 
 				// logic
 				case '==':
-					returnValue = operand1 == operand2
+					result = operand1 == operand2
 					break
 				case '===':
-					returnValue = operand1 === operand2
+					result = operand1 === operand2
 					break
 				case '!=':
-					returnValue = operand1 != operand2
+					result = operand1 != operand2
 					break
 				case '!==':
-					returnValue = operand1 !== operand2
+					result = operand1 !== operand2
 					break
 				case '>':
-					returnValue = operand1 > operand2
+					result = operand1 > operand2
 					break
 				case '>=':
-					returnValue = operand1 >= operand2
+					result = operand1 >= operand2
 					break
 				case '<':
-					returnValue = operand1 < operand2
+					result = operand1 < operand2
 					break
 				case '<=':
-					returnValue = operand1 <= operand2
+					result = operand1 <= operand2
 					break
 			}
 
@@ -106,7 +106,7 @@ function calculateIt() {
 
 	// display operation and return value
 	document.getElementById('final-operation').innerHTML =
-		operand1 + ' ' + myOperator + ' ' + operand2
+		operand1 + ' ' + selectedOperator + ' ' + operand2
 
-	document.getElementById('result').innerHTML = returnValue
+	document.getElementById('result').innerHTML = result
 }
