@@ -1,42 +1,42 @@
 // allows submit button to respond when clicked
-document.getElementById('submit').addEventListener('click', calculateIt)
+document.getElementById('submit').addEventListener('click', calculate)
 
-function calculateIt() {
+function getValue(id) {
+	return document.getElementById(id).value
+}
+
+function convertType(operandType, operand) {
+	switch (operandType) {
+		case 'string':
+			operand = String(operand)
+			break
+		case 'number':
+			operand = Number(operand)
+			break
+	}
+}
+
+function calculate() {
 	let selectedOperator // operator selected by user
 	let result // output of the operation
 
 	// obtain the operands
-	let operand1 = document.getElementById('operand1').value
-	let operand2 = document.getElementById('operand2').value
+	let operand1 = getValue('operand1')
+	let operand2 = getValue('operand2')
 
 	// obtain the operand types (string/number)
-	let operand1type = document.getElementById('operand1-type').value
-	let operand2type = document.getElementById('operand2-type').value
+	let operandType1 = getValue('operand1-type')
+	let operandType2 = getValue('operand2-type')
 
 	// obtain the operator
 	let radios = document.getElementsByName('operator')
 
 	// convert the operands to the datatype specified
-	switch (operand1type) {
-		case 'string':
-			operand1 = String(operand1)
-			break
-		case 'number':
-			operand1 = Number(operand1)
-			break
-	}
-
-	switch (operand2type) {
-		case 'string':
-			operand2 = String(operand2)
-			break
-		case 'number':
-			operand2 = Number(operand2)
-			break
-	}
+	convertType(operandType1, operand1)
+	convertType(operandType2, operand2)
 
 	// loop through each possible operand value and find the selected one
-	for (let i = 0, length = radios.length; i < length; i++) {
+	for (let i = 0; i < radios.length; i++) {
 		if (radios[i].checked) {
 			selectedOperator = radios[i].value
 
