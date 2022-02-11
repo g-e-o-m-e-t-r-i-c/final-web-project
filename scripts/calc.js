@@ -105,8 +105,8 @@ function calculate() {
 	}
 
 	// display operation and return value
-	document.getElementById('final-operation').innerHTML =
+	getValue('final-operation').innerHTML =
 		operand1 + ' ' + selectedOperator + ' ' + operand2
 
-	document.getElementById('result').innerHTML = result
+	getValue('result').innerHTML = result
 }
