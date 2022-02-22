@@ -8,11 +8,11 @@ function getValue(id) {
 function convertType(operandType, operand) {
 	switch (operandType) {
 		case 'string':
-			operand = String(operand)
-			break
+			return String(operand)
 		case 'number':
-			operand = Number(operand)
-			break
+			return Number(operand)
+		default:
+			return operand
 	}
 }
 
@@ -20,20 +20,20 @@ function calculate() {
 	let selectedOperator // operator selected by user
 	let result // output of the operation
 
-	// obtain the operands
+	// Obtain the operands
 	let operand1 = getValue('operand1')
 	let operand2 = getValue('operand2')
 
 	// obtain the operand types (string/number)
-	let operandType1 = getValue('operand1-type')
-	let operandType2 = getValue('operand2-type')
+	const operandType1 = getValue('operand1-type')
+	const operandType2 = getValue('operand2-type')
 
 	// obtain the operator
 	let radios = document.getElementsByName('operator')
 
 	// convert the operands to the datatype specified
-	convertType(operandType1, operand1)
-	convertType(operandType2, operand2)
+	operand1 = convertType(operandType1, operand1)
+	operand2 = convertType(operandType2, operand2)
 
 	// loop through each possible operand value and find the selected one
 	for (let i = 0; i < radios.length; i++) {

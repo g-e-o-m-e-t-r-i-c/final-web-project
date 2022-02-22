@@ -1,5 +1,4 @@
 // canvas set-up
-let rect = document.getElementById('rectangle')
 let c = document.getElementById('canv')
 let ctx = c.getContext('2d')
 
